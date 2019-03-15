@@ -56,8 +56,9 @@ old end*/
 
 #ul1{
   list-style-type: none;
-  margin: 100;
-  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 270px;
   margin-right: 150px;
   padding: 100;
   overflow: hidden;
@@ -73,10 +74,11 @@ old end*/
   display: block;
   color: white;
   text-align: center;
-  padding: 20px 80px;
+  padding: 20px 50px;
   text-decoration: none;
     font-size: 20px;
     font-family: sans-serif;
+  
 }
 
 .menulista:hover {
@@ -103,6 +105,7 @@ old end*/
   color: aliceblue;
   font-family: monospace;
   letter-spacing: 3px;
+    
     
 }
 
@@ -159,6 +162,7 @@ old end*/
 	font-size: 20px;
 	display: inline-block;
 	margin-right: 30px;
+    margin-left:30px;
     border-radius: 10px;
     height: 400px;
 }
@@ -201,8 +205,14 @@ old end*/
 }
 .search-1:hover {
     background-color: lightblue;
+    
 }
 .search-2:hover {
     background-color: lightblue;
+    
+}
+a {
+    text-decoration: none;
+    color:black;
 }
 /*home end*/
