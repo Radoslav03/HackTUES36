@@ -1,0 +1,164 @@
+body{
+	background-image: url('img/back.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*header start*/
+#mainh1{
+	text-align: center;
+	font-size: 50px;
+	font-family: Algerian;
+}
+
+#div1{
+ 	background-color: white;
+ 	border: 5px solid black;
+ 	padding: 0px;
+	margin: 50px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+/*header end*/
+
+/*ul nav menu start*/
+#ul1{
+  list-style-type: none;
+  margin: 100;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 100;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.menulist{
+  float: left;
+}
+
+.menulista{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.menulista:hover {
+  background-color: pink;
+  color: black;
+}
+/*ul nav menu end*/
+
+/*search bar start*/
+.search-bar{
+	text-align: center;
+}
+
+.search-input, .search-button {
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.content-after-search img{
+	width: 330px;
+	height: 190px;
+	border: solid black;
+	margin-left: 50px;
+	margin-top: 0px;
+}
+
+.pre1{
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+.cell {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+.cell img {
+    width: 70%;
+    height: 80%;
+}
+
+.row:not(:last-child){
+	margin-bottom: 50px;
+}
+
+.cell:not(:first-child){
+	margin-top: 0px;
+}
+/*search bar end*/
+
+/*ul ✓ start*/
+#divhome{
+  text-align: center;
+  color: black;
+}
+
+#h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  font-family: Algerian;
+  padding-top: 20px;
+}
+
+#home{
+  background-color: white;
+  border: 5px solid black;
+  padding-bottom: 0px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+#ul2{
+	list-style: none;
+}
+
+.li2:before{
+	content: "✓ ";
+}
+
+.content-before-search{
+	margin-left: 60px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+}
+
+#div3{
+	background-color: #333333;
+	color: white;
+	border: 3px solid black;
+	padding: 10px;
+	width: 30%;
+	margin-top: 0px;
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.cell2{
+	display: inline-block;
+	width: 29%;
+	vertical-align: top;
+	margin-top: 0px;
+
+}
+
+.cell2 img {
+	display: inline-block;
+    width: 90%;
+    height: 90%;
+}
+/*ul ✓ end*/

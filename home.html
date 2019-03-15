@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Delicious universe </title>
+
+		<meta charset="UTF-8">
+		<meta name="description" content="Dishes recipes">
+		<meta name="keywords" content="delicious universe, recipes, dishes">
+		<meta name="author" content="Victoria Radkova">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="home.css">
+	</head>
+
+	<body> 
+
+		<div id="div1">
+		<h1 id="mainh1">
+			Delicious universe
+		</h1>
+		</div>
+
+
+		<ul id="ul1">
+			<li class="menulist"><a class="menulista" href="home.html">Начало</a></li>
+			<li class="menulist"><a class="menulista" href="theatre.html">Театър</a></li>
+			<li class="menulist"><a class="menulista" href="cinema.html">Кино</a></li>
+			<li class="menulist"><a class="menulista" href="most popular.html">Популярни</a></li>
+		</ul>	
+
+
+		<form class="search-bar">
+			<input class="search-input"></input>
+			<button class="search-button">Search</button>
+		</form>
+		<div id="home">
+			<div id="divhome">
+				<h1 id="h1">Home</h1>
+			</div>
+
+			<div class="content-before-search">
+				<div class="row2">
+
+					<div class="cell2">
+						<img src="./img/home2.jpg" alt="lol">
+					</div>
+
+					<div id="div3">
+						<div class="cell3">
+							<ul id="ul2">
+								<li class="li2">Search for delicious dishes</li>
+								<li class="li2">Find recipes</li>
+								<li class="li2">Take ideas</li>
+								<li class="li2">Recommend a dish</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="cell2">
+						<img src="./img/home3.jpg" alt="lol">
+					</div>
+				</div>
+			</div>
+		
+			<div class="content-after-search" hidden style="color: black;">
+				<div class="row">
+					<div class="cell">
+						<img src="./img/home1.jpg" alt="lol">
+					</div>
+					<div class="cell">
+						<span class="pre1">
+							<h1>Roast Chicken</h1>
+							<p>The best roast chicken has garlic herb butter under and on the skin, is stuffed with lemon and herbs, roasted until it’s crispy and deep golden on the outside, and juicy on the inside...</p>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript">
+			document.getElementsByClassName('search-button')[0].addEventListener('click', performSearch);
+
+			function performSearch(event) {
+				event.preventDefault();
+
+				var beforeSearch = document.getElementsByClassName('content-before-search')[0];
+				beforeSearch.hidden = true;
+
+				var afterSearch = document.getElementsByClassName('content-after-search')[0];
+				afterSearch.hidden = false;
+			}
+		</script>
+	</body>
+
+</html>

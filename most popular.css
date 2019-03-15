@@ -1,0 +1,104 @@
+body{
+  background-image: url('img/back.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*header start*/
+#mainh1{
+	text-align: center;
+	font-size: 50px;
+	font-family: Algerian;
+}
+
+#div1{
+ 	background-color: white;
+ 	border: 5px solid black;
+ 	padding: 0px;
+	margin: 50px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+/*header end*/
+
+/*ul nav menu start*/
+#ul1{
+  list-style-type: none;
+  margin: 100;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 100;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.menulist{
+  float: left;
+}
+
+.menulista{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.menulista:hover {
+  background-color: pink;
+  color: black;
+}
+/*ul nav menu end*/
+
+/*most popular dishes start*/
+#div1{
+  color: black;
+  background-color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+  border: 5px solid black;
+}
+
+#h1{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+  font-family: Algerian;
+  padding-top: 20px;
+}
+
+.most-popular-dishes img{
+  width: 330px;
+  height: 190px;
+  border: solid black;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.pre1{
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+.cell {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.cell img {
+    width: 70%;
+    height: 80%;
+}
+
+.row:not(:last-child){
+  margin-bottom: 50px;
+}
+
+.cell:not(:first-child){
+  margin-top: 0px;
+}
+/*most popular dishes end*/

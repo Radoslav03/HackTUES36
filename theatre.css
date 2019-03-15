@@ -1,0 +1,94 @@
+body{
+	background-image: url('img/back.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*header start*/
+#mainh1{
+	text-align: center;
+	font-size: 50px;
+	font-family: Algerian;
+}
+
+#div1{
+ 	background-color: white;
+ 	border: 5px solid black;
+ 	padding: 0px;
+	margin: 50px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+/*header end*/
+
+/*ul nav menu start*/
+#ul1{
+  list-style-type: none;
+  margin: 100;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 100;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.menulist{
+  float: left;
+}
+
+.menulista{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.menulista:hover {
+  background-color: pink;
+  color: black;
+}
+/*ul nav menu end*/
+
+/*about the page text start*/
+#about{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0;
+	font-family: Algerian;
+	padding-bottom: 20px;
+}
+
+#about-the-page{
+	background-color: white;
+ 	border: 5px solid black;
+ 	padding-bottom: 0px;
+ 	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+    padding: 50px;
+}
+.pre1{
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.cell {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+
+.cell img {
+    width: 90%;
+    height: 90%;
+}
+
+.row:not(:last-child){
+	margin-bottom: 50px;
+}
+/*about the page text end*/
+
+
