@@ -3,7 +3,7 @@
 
 	<head>
 
-		<title>Delicious universe </title>
+		<title>Watch it</title>
 
 		<meta charset="UTF-8">
 		<meta name="description" content="Dishes recipes">
@@ -18,7 +18,7 @@
 
 		<div id="div1">
 		<h1 id="mainh1">
-			Delicious universe
+			Watch it
 		</h1>
 		</div>
 
@@ -30,69 +30,33 @@
 			<li class="menulist"><a class="menulista" href="most popular.html">Популярни</a></li>
 		</ul>	
 
-
-		<form class="search-bar">
-			<input class="search-input"></input>
-			<button class="search-button">Search</button>
-		</form>
 		<div id="home">
 			<div id="divhome">
-				<h1 id="h1">Home</h1>
+				<h1 id="h1">Начало</h1>
 			</div>
 
-			<div class="content-before-search">
+			<div class="lol">
 				<div class="row2">
 
 					<div class="cell2">
-						<img src="./img/home2.jpg" alt="lol">
+						
 					</div>
 
 					<div id="div3">
 						<div class="cell3">
-							<ul id="ul2">
-								<li class="li2">Search for delicious dishes</li>
-								<li class="li2">Find recipes</li>
-								<li class="li2">Take ideas</li>
-								<li class="li2">Recommend a dish</li>
-							</ul>
+                            <h3 class="intro">Намерете филма или постановката, която искате да гледате в рамките на няколко клика!</h3>
 						</div>
+                        <button class="search-1"><a href="#">Търси филм</a></button>
+                        <button class="search-2"><a href="#">Търси постановка</a> </button>
 					</div>
 
 					<div class="cell2">
-						<img src="./img/home3.jpg" alt="lol">
-					</div>
-				</div>
-			</div>
-		
-			<div class="content-after-search" hidden style="color: black;">
-				<div class="row">
-					<div class="cell">
-						<img src="./img/home1.jpg" alt="lol">
-					</div>
-					<div class="cell">
-						<span class="pre1">
-							<h1>Roast Chicken</h1>
-							<p>The best roast chicken has garlic herb butter under and on the skin, is stuffed with lemon and herbs, roasted until it’s crispy and deep golden on the outside, and juicy on the inside...</p>
-						</span>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-		<script type="text/javascript">
-			document.getElementsByClassName('search-button')[0].addEventListener('click', performSearch);
-
-			function performSearch(event) {
-				event.preventDefault();
-
-				var beforeSearch = document.getElementsByClassName('content-before-search')[0];
-				beforeSearch.hidden = true;
-
-				var afterSearch = document.getElementsByClassName('content-after-search')[0];
-				afterSearch.hidden = false;
-			}
-		</script>
 	</body>
 
 </html>
