@@ -1,5 +1,5 @@
 body{
-  background-image: url('img/back.png');
+	background-image: url('img/back.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -10,6 +10,7 @@ body{
 	text-align: center;
 	font-size: 50px;
 	font-family: Algerian;
+    
 }
 
 #div1{
@@ -23,6 +24,7 @@ body{
 /*header end*/
 
 /*ul nav menu start*/
+/* old
 #ul1{
   list-style-type: none;
   margin: 100;
@@ -31,6 +33,37 @@ body{
   padding: 100;
   overflow: hidden;
   background-color: #333333;
+}
+.menulist{
+  float: left;
+}
+.menulista{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+.menulista:hover {
+  background-color: pink;
+  color: black;
+}
+old end*/
+/*ul nav menu end*/
+
+#ul1{
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 270px;
+  margin-right: 150px;
+  padding: 100;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 20px;
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
 }
 
 .menulist{
@@ -41,64 +74,121 @@ body{
   display: block;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 20px 50px;
   text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+  
 }
 
 .menulista:hover {
-  background-color: pink;
+  background-color: lightblue;
   color: black;
+    font-family: monospace;
 }
-/*ul nav menu end*/
-
-/*most popular dishes start*/
-#div1{
+.menulista:active {
+  background-color: lightblue;
   color: black;
-  background-color: white;
-  margin-left: 150px;
-  margin-right: 150px;
-  border: 5px solid black;
-}
-
-#h1{
-  text-align: center;
-  font-size: 50px;
-  margin-top: 0;
-  font-family: Algerian;
-  padding-top: 20px;
-}
-
-.most-popular-dishes img{
-  width: 330px;
-  height: 190px;
-  border: solid black;
-  margin-left: 50px;
-  margin-top: 20px;
+    font-family: monospace;
 }
 
 .pre1{
-  font-family: Calibri;
-  font-size: 20px;
+	font-family: Calibri;
+	font-size: 20px;
+    color: aliceblue;
+}
+/*ul nav menu end*/
+
+/*about the page text start*/
+#about{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0;
+	font-family: Algerian;
+	padding-bottom: 20px;
+    color: aliceblue;
+    font-family:monospace;
+}
+
+#fuckit{
+	background-color: #333333;
+	margin-right: 250px;
+	margin-left: 240px;
+	padding-top: 10px;
+	border-radius: 20px;
+}
+
+#about-the-page{
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding-bottom: 0px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  
+    background-image: url('img/filmstrip_PNG30.png');
+    background-position: center;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+}
+.pre1{
+	font-family: Calibri;
+	font-size: 20px;
+    margin-top: 100px;
+    margin-left: auto;
 }
 
 .cell {
-  display: inline-block;
-  width: 49%;
-  vertical-align: top;
-  margin-top: 0px;
-  margin-bottom: 20px;
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
 }
 
 .cell img {
-    width: 70%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 }
 
 .row:not(:last-child){
-  margin-bottom: 50px;
+	margin-bottom: 50px;
+}
+#film-img {
+    height: 240px;
+    width: 230px;
+    margin-left: 210px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.header {
+    font-size: 28px;
+    font-family: monospace;
+    color: aliceblue;
+    margin-top: 80px;
 }
 
-.cell:not(:first-child){
-  margin-top: 0px;
+a {
+    text-decoration: none;
+    color: darkcyan;
 }
-/*most popular dishes end*/
+a:hover {
+    color : aliceblue;
+}
+#film-img1 {
+    height: 240px;
+    width: 230px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.header1 {
+    font-size: 28px;
+    font-family: monospace;
+    color: aliceblue;
+    margin-top: 30px; 
+}
