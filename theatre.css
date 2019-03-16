@@ -134,11 +134,12 @@ body{
 	margin-bottom: 50px;
 }
 #film-img {
-    height: 240px;
-    width: 230px;
+    height: 250px;
+    width: auto;
     margin-left: 210px;
     margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-right: -20px;
     
 }
 .header {
@@ -158,10 +159,12 @@ a:hover {
     color : aliceblue;
 }
 #film-img1 {
-    height: 240px;
-    width: 230px;
+    height: 250px;
+    width: auto;
     margin-left: 210px;
     margin-top: 10px;
+    margin-right: -20px;
+    margin-bottom: 50px;
 }
 .header1 {
     font-size: 35px;
@@ -176,7 +179,7 @@ a:hover {
   padding: 15px;
   border:3px solid blue;
     margin-left: 250px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     margin-top: 30px;
     position: -webkit-sticky; 
   position: sticky;
@@ -193,11 +196,27 @@ a:hover {
   padding: 12px;
   text-decoration: none;
   font-size: 30px;
-  margin-left: -70px;
+  margin-left: -140px;
   display: block;
+  text-transform: uppercase;
 }
 
 #myMenu li a:hover {
   background-color: white;
   color: darkcyan;
+}
+.view {
+    font-size: 30px;
+    font-family: monospace;
+    padding: 10px 30px;
+    border : 5px solid darkblue;
+    border-radius: 10px;
+    margin-left: -130px;
+    margin-top: 40px;
+    background-color: lightgray;
+}
+.view:hover {
+    background-color: cadetblue;
+    color : aliceblue;
+    
 }
