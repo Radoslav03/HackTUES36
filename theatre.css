@@ -23,41 +23,15 @@ body{
 }
 /*header end*/
 
-/*ul nav menu start*/
-/* old
-#ul1{
-  list-style-type: none;
-  margin: 100;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding: 100;
-  overflow: hidden;
-  background-color: #333333;
-}
-.menulist{
-  float: left;
-}
-.menulista{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  text-decoration: none;
-}
-.menulista:hover {
-  background-color: pink;
-  color: black;
-}
-old end*/
-/*ul nav menu end*/
+/* SASHO TUK IMA MALKO PROMENI V MARGINA*/
 
 #ul1{
   list-style-type: none;
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
   margin-left: 270px;
   margin-right: 150px;
-  padding: 100;
+  padding-right: 0px ;
   overflow: hidden;
   background-color: #333333;
   border-radius: 20px;
@@ -69,12 +43,12 @@ old end*/
 .menulist{
   float: left;
 }
-
+/* SASHO TUK IMA PROMENI V PADDINGA*/
 .menulista{
   display: block;
   color: white;
   text-align: center;
-  padding: 20px 50px;
+  padding: 20px 70px;
   text-decoration: none;
     font-size: 20px;
     font-family: sans-serif;
@@ -129,7 +103,7 @@ old end*/
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 50px;
-  
+  position: relative;
     background-image: url('img/filmstrip_PNG30.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +138,8 @@ old end*/
     width: 230px;
     margin-left: 210px;
     margin-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    
 }
 .header {
     font-size: 35px;
@@ -172,25 +147,9 @@ old end*/
     color: aliceblue;
     margin-top: 80px;
     
+    
 }
-.article {
-    font-size: 15px;
-    font-family: sans-serif;
-    color: aliceblue;
-    margin-top: 10px;
-}
-.vreme {
-    font-size: 15px;
-    font-family: monospace;
-    color:aliceblue;
-    margin-top: 10px;
-}
-.link {
-    font-size: 35px;
-    font-family: cursive;
-    color:aliceblue;
-    margin-top: 10px;
-}
+
 a {
     text-decoration: none;
     color: darkcyan;
@@ -210,16 +169,35 @@ a:hover {
     color: aliceblue;
     margin-top: 30px; 
 }
-#film-img2 {
-    height: 240px;
-    width: 230px;
-    margin-left: 210px;
-    margin-top: 45px;
-    
+/* SASHO COPIRAY OT TUK DO KRAYA*/
+#mySearch {
+  width: 50%;
+  font-size: 20px;
+  padding: 15px;
+  border:3px solid blue;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    position: -webkit-sticky; 
+  position: sticky;
+    top : 0;
 }
-.header2 {
-    font-size: 28px;
-    font-family: monospace;
-    color: aliceblue;
-    margin-top: 60px;  
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  color: aliceblue;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: -70px;
+  display: block;
+}
+
+#myMenu li a:hover {
+  background-color: white;
+  color: darkcyan;
 }
