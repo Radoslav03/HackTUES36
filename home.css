@@ -64,6 +64,9 @@ old end*/
   overflow: hidden;
   background-color: #333333;
   border-radius: 20px;
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
 }
 
 .menulist{
@@ -164,7 +167,7 @@ old end*/
 	margin-right: 30px;
     margin-left:30px;
     border-radius: 10px;
-    height: 400px;
+    height: 450px;
 }
 
 .cell2{
