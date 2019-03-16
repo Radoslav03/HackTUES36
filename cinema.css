@@ -10,6 +10,7 @@ body{
 	text-align: center;
 	font-size: 50px;
 	font-family: Algerian;
+    
 }
 
 #div1{
@@ -23,6 +24,7 @@ body{
 /*header end*/
 
 /*ul nav menu start*/
+/* old
 #ul1{
   list-style-type: none;
   margin: 100;
@@ -31,6 +33,37 @@ body{
   padding: 100;
   overflow: hidden;
   background-color: #333333;
+}
+.menulist{
+  float: left;
+}
+.menulista{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
+.menulista:hover {
+  background-color: pink;
+  color: black;
+}
+old end*/
+/*ul nav menu end*/
+
+#ul1{
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 270px;
+  margin-right: 150px;
+  padding: 100;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 20px;
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
 }
 
 .menulist{
@@ -41,13 +74,28 @@ body{
   display: block;
   color: white;
   text-align: center;
-  padding: 30px;
+  padding: 20px 90px;
   text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+  
 }
 
 .menulista:hover {
-  background-color: pink;
+  background-color: lightblue;
   color: black;
+    font-family: monospace;
+}
+.menulista:active {
+  background-color: lightblue;
+  color: black;
+    font-family: monospace;
+}
+
+.pre1{
+	font-family: Calibri;
+	font-size: 20px;
+    color: aliceblue;
 }
 /*ul nav menu end*/
 
@@ -58,21 +106,43 @@ body{
 	margin-top: 0;
 	font-family: Algerian;
 	padding-bottom: 20px;
+    color: aliceblue;
+    font-family:monospace;
+}
+
+#fuckit{
+	background-color: #333333;
+	margin-right: 250px;
+	margin-left: 240px;
+	padding-top: 10px;
+	border-radius: 20px;
 }
 
 #about-the-page{
-	background-color: white;
- 	border: 5px solid black;
- 	padding-bottom: 0px;
- 	margin-top: 30px;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 50px;
-    padding: 50px;
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding-bottom: 0px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  
+    background-image: url('img/filmstrip_PNG30.png');
+    background-position: center;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
 }
 .pre1{
 	font-family: Calibri;
-	font-size: 18px;
+	font-size: 20px;
+    margin-top: 100px;
+    margin-left: auto;
 }
 
 .cell {
@@ -89,6 +159,41 @@ body{
 .row:not(:last-child){
 	margin-bottom: 50px;
 }
-/*about the page text end*/
+#film-img {
+    height: 240px;
+    width: 230px;
+    margin-left: 210px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.header {
+    font-size: 30px;
+    font-family: monospace;
+    color: aliceblue;
+    margin-top: 80px;
+}
 
+a {
+    text-decoration: none;
+    color: darkcyan;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+a:hover {
+    color : aliceblue;
+}
+#film-img1 {
+    height: 240px;
+    width: 230px;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.header1 {
+    font-size: 28px;
+    font-family: monospace;
+    color: aliceblue;
+    margin-top: 30px; 
+}
+
+    
 
